@@ -152,7 +152,4 @@ nnoremap ; :
 
 au BufNewFile,BufRead *.njk set ft=jinja
 
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                       \ 'syntax': 'markdown', 'ext': '.vimwiki'}]
-
 set dir=~
