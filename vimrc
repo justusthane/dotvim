@@ -93,6 +93,10 @@ set laststatus=2
 set undofile
 let mapleader = ","
 
+set backupdir=.backup/,~/.vim/backup//,~/vimfiles/backup//,./
+set directory=.swp/,~/.vim/swp//,~/vimfiles/swp//,./
+set undodir=.undo/,~/.vim/undo//,~/vimfiles/undo//,./
+
 "Hybrid line numbers in command mode, absolute numbers in insert mode
 :set number relativenumber
 :augroup numbertoggle
