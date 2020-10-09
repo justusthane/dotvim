@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/justus/projects/SaidOwenMeany'
+let g:netrw_dirhist_8='/Users/justus/projects'
+let g:netrw_dirhist_7='/Users/justus'
+let g:netrw_dirhist_6='/Users/justus/webdev'
+let g:netrw_dirhist_5='/Users/justus'
+let g:netrw_dirhist_4='/Users/justus/webdev/11ty-justus.ws/misc/favorite-possessions'
+let g:netrw_dirhist_3='/Users/justus/webdev/11ty-justus.ws/misc/favorite-possessions/chainmail-scrubber'
+let g:netrw_dirhist_2='/Users/justus/webdev/11ty-justus.ws/misc/favorite-possessions'
+let g:netrw_dirhist_1='/Users/justus/webdev/11ty-justus.ws/misc/favorite-possessions/slipper-socks'
+let g:netrw_dirhist_0='/Users/justus/webdev/11ty-justus.ws/misc/favorite-possessions'
