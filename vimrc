@@ -2,7 +2,16 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" Fix for ConEmu color. Try changing to if !empty($CONEMUBUILD) if it messes
+" up on mac
+if !has("gui_running")
+  set term=xterm
+  set t_Co=256
+  let &t_AB="\e[48;5;%dm"
+  let &t_AF="\e[38;5;%dm"
+endif
 set rtp+=/usr/local/opt/fzf
+
 packadd! matchit
 
 " set the runtime path to include Vundle and initialize
