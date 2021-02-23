@@ -6,10 +6,16 @@ set rtp+=/usr/local/opt/fzf
 packadd! matchit
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+if has("win32")
+  set rtp+=~/vimfiles/bundle/Vundle.vim
+  "call vundle#begin()
+  " alternatively, pass a path where Vundle should install plugins
+  call vundle#begin('~/vimfiles/bundle')
+else
+  set rtp+=~/.vim/bundle/Vundle.vim
+  call vundle#begin()
+  " alternatively, pass a path where Vundle should install plugins
+endif
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
